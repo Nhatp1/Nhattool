@@ -38,7 +38,6 @@ def banner():
         \x1b[38;5;207m MUA KEY VIP LIÊN HỆ ZALO: 0386358592 (500đ/1day) \x1b[38;5;46m
         \x1b[38;5;207m BOT SPAM SMS: https://t.me/sharebotvip \x1b[38;5;207m
    \x1b[38;5;207m╚══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;46m═╝
-
 """
  for X in banner:
   sys.stdout.write(X)
@@ -119,7 +118,7 @@ class TraoDoiSub_Api (object):
 def delay(dl):
   try:
     for i in range(dl, -1, -1):
-       print(f'{vang}[{trang}HIẾU-TOOL{vang}][{trang}'+str(i)+vang+']           ',end='\r')
+       print(f'{vang}[{trang}NHẬT-TOOL{vang}][{trang}'+str(i)+vang+']           ',end='\r')
        sleep(1)
   except:
      sleep(dl)
