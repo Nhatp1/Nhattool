@@ -187,6 +187,8 @@ print(f"{hong}│ {vang} 6 {red} │{trang} TTC INSTAGRAM           {red}       
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE            {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+
 import requests
 
 chon = str(input('\033[1;31m[\033[1;32m⟨⟩\033[1;31m]\033[1;33m➩ \033[1;34mNhập Số \033[1;37m: \033[1;33m'))
@@ -221,8 +223,8 @@ elif chon == '6':
 #	exec(requests.get('').text)
 #elif chon == '10':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/hamter.py').text)
-#elif chon == '7.3':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/ttcpro5.py').text)
+elif chon == '7.1':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gotik.py').text)
 elif chon == '7':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/goliketik.py').text)
 #elif chon == '12':
