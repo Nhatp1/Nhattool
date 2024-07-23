@@ -188,6 +188,8 @@ print(f"{hong}├─────┼───────────────
 print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE            {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 
 import requests
 
@@ -203,8 +205,8 @@ elif chon == '4':
     exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/tdsig.py').text)
 elif chon == '5':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/ttcpro5.py').text)
-#elif chon == '8':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/viewfb.py').text)
+elif chon == '8':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoifb.py').text)
 #elif chon == '8.1':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/shareao.py').text)
 #elif chon == '8.2':
