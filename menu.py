@@ -100,7 +100,7 @@ def main():
         print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
     else:
 
-        url = f'https://taoweb1s.net/key-tool?key={key}'
+        url = f'https://dichvukey.site/key.html?key={key}'
         token_link1s = "432c9b236e4e2a7ca16f55b2029fe3461c78be79bb267c98e4f80f49303dbab3"
         link_key = fetch_shortened_url(url, token_link1s)
 
