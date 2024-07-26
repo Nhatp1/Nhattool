@@ -185,7 +185,7 @@ print(f"{hong}│ {vang} 5 {red} │{trang} TTC PRO5           {red}            
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 6 {red} │{trang} TTC INSTAGRAM           {red}            │{luc} ONLINE {red} │ {lam} [1.7] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE            {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE  VIP           {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
@@ -228,7 +228,7 @@ elif chon == '6':
 elif chon == '7.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gotik.py').text)
 elif chon == '7':
-	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/goliketik.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gopgolike.py').text)
 #elif chon == '12':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/memtele.py').text)
 #elif chon =='11':
