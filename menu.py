@@ -91,7 +91,7 @@ def main():
     clear_screen()
 
     ngay = int(strftime('%d'))
-    key = "NhatTool" + str(ngay * 2593885817 + 4610273)
+    key = "NhatTool-" + str(ngay * 2593885817 + 4610273)
     key = "nhattool2802"
 
     saved_key = load_key_from_file()
@@ -100,7 +100,7 @@ def main():
         print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
     else:
 
-        url = f'https://dichvukey.site/key.html?key={key}'
+        url = f'https://key.c25tool.net/key.html?key={key}'
         token_link1s = "432c9b236e4e2a7ca16f55b2029fe3461c78be79bb267c98e4f80f49303dbab3"
         link_key = fetch_shortened_url(url, token_link1s)
 
@@ -147,7 +147,6 @@ banner = '''
         \x1b[38;5;207mBOX ZALO : \x1b[38;5;46mhttps://zalo.me/g/ozebne540
         \x1b[38;5;207m ADMIN : \x1b[38;5;46m NHẬT TOOL
         \x1b[38;5;207m MUA KEY VIP LIÊN HỆ ZALO: 0386358592 (500đ/1day) \x1b[38;5;46m
-        \x1b[38;5;207m BOT SPAM SMS: https://t.me/sharebotvip \x1b[38;5;207m
    \x1b[38;5;207m╚══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;46m═╝
 
 '''
@@ -190,7 +189,7 @@ print(f"{hong}├─────┼───────────────
 print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-
+print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 import requests
 
 chon = str(input('\033[1;31m[\033[1;32m⟨⟩\033[1;31m]\033[1;33m➩ \033[1;34mNhập Số \033[1;37m: \033[1;33m'))
