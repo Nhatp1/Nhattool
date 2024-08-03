@@ -189,7 +189,10 @@ print(f"{hong}├─────┼───────────────
 print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│{vang} 9  {red} │{luc}  BUFF LIKE FB       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print(f"{hong}│{vang} 10  {red} │{tim}  BUFF VIEW-TYM TIKTOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 import requests
+
 
 chon = str(input('\033[1;31m[\033[1;32m⟨⟩\033[1;31m]\033[1;33m➩ \033[1;34mNhập Số \033[1;37m: \033[1;33m'))
 
@@ -221,8 +224,8 @@ elif chon == '9':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/likefb.py').text)
 #elif chon == '8.4':
 #	exec(requests.get('').text)
-#elif chon == '10':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/hamter.py').text)
+elif chon == '10':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/zefoyv1.py').text)
 elif chon == '7.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gotik.py').text)
 elif chon == '7':
