@@ -51,7 +51,24 @@ thang_nay = now.strftime('%m')
 nam_ = now.strftime('%Y')
 now = datetime.datetime.now()
 gio_hien_tai = now.strftime('%H:%M:%S')
+System.Clear()
+System.Title("TranMinhQuang")
+System.Size(300, 200)
+banner = r"""
 
+
+ 
+ ███╗   ██╗██╗  ██╗ █████╗ ████████╗    ████████╗ ██████╗  ██████╗ ██╗     
+ ████╗  ██║██║  ██║██╔══██╗╚══██╔══╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
+ ██╔██╗ ██║███████║███████║   ██║          ██║   ██║   ██║██║   ██║██║     
+ ██║╚██╗██║██╔══██║██╔══██║   ██║          ██║   ██║   ██║██║   ██║██║     
+ ██║ ╚████║██║  ██║██║  ██║   ██║          ██║   ╚██████╔╝╚██████╔╝███████╗
+ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝          ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
+                                                                                 
+                            ENTER ĐỂ VÀO TOOL                                
+"""
+Anime.Fade(Center.Center(banner), Colors.blue_to_green, Colorate.Vertical, enter=True)
+from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -186,7 +203,9 @@ print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE  VIP           {red}   
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK V1      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
+print(f"{hong}│{vang} 8.1  {red} │{luc}  NUÔI FACEBOOK V2       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 print(f"{hong}│{vang} 9  {red} │{luc}  BUFF LIKE FB       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
 print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
@@ -208,8 +227,8 @@ elif chon == '5':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/ttcpro5.py').text)
 elif chon == '8':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoifb.py').text)
-#elif chon == '8.1':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/shareao.py').text)
+elif chon == '8.1':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoivip.py').text)
 #elif chon == '8.2':
 #	exec(requests.get(' https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/addbb.py').text)
 #elif chon == '8.3':
