@@ -52,7 +52,7 @@ nam_ = now.strftime('%Y')
 now = datetime.datetime.now()
 gio_hien_tai = now.strftime('%H:%M:%S')
 System.Clear()
-System.Title("TranMinhQuang")
+System.Title("OFFTOOL")
 System.Size(300, 200)
 banner = r"""
 
@@ -73,12 +73,12 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 
-def save_key_to_file(key, filename='NhatTool-key.txt'):
+def save_key_to_file(key, filename='OFFTOOL-key.txt'):
     with open(filename, 'w') as file:
         file.write(str(key))
 
 
-def load_key_from_file(filename='NhatTool-key.txt'):
+def load_key_from_file(filename='OFFTOOL-key.txt'):
     if os.path.exists(filename):
         with open(filename, 'r') as file:
             return file.read().strip()
@@ -108,12 +108,12 @@ def main():
     clear_screen()
 
     ngay = int(strftime('%d'))
-    key = "NhatTool-" + str(ngay * 2593885817 + 4610273)
-    key = "nhattool2802"
+    key = "OFFTool-" + str(ngay * 2593885817 + 4610273)
+#    keyvip = "nhattool28"
 
     saved_key = load_key_from_file()
 
-    if saved_key == key:
+    if saved_key == key :
         print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
     else:
 
