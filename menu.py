@@ -23,6 +23,11 @@ do = "\033[1;31m"
 vang = "\033[1;33m"
 tim = "\033[1;35m"
 xanhnhat = "\033[1;36m"
+#Đánh Dấu Bản Quyền
+HĐ_tool = trang + " " + trang + "[" + do + "+_+" + trang + "] " + trang + "=> "
+mquang = trang + " " + trang + "[" + do + "÷_+" + trang + "] " + trang + "=> "
+thanh = trang + "-------------------------------------------------------------------------"
+
 import os
 
 def clear_screen():
@@ -140,6 +145,7 @@ def main():
    \x1b[38;5;46mLink Lấy Key Là : \x1b[38;5;226m{link_key}
    \033[1;32m Nhập Key để Vào Tool : ''')
 
+
         if nhap_key == key:
             print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
 
@@ -182,38 +188,40 @@ hong = "\033[1;95m"
 #thanh_dep= print(f"{red}│{vang}      {red}│    {vang}      {red}        │ {vang}STATUS {red} │{vang} VERSION {red}│")
 #thanh_cuoi=print(f"{red}├─────┼────────────────────────────────────┼─────────┼─────────┤")
 
-print(f"{hong}┌─────┬────────────────────────────────────┬─────────┬─────────┐")
-print(f"{hong}│{vang} STT {red}│    {xanhnhat}         MENU TOOL      {red}        │ {vang}STATUS {red} │{vang} VERSION {red}│")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│{vang}  1 {red} │{lam} TDS TIKTOK    {red}                     │{luc} ONLINE {red} │ {lam} [2.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 2 {red} │{lam} TDS FACEBOOK PRO5     {red}             │{luc} ONLINE {red} │ {lam} [2.1] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 3 {red} │{lam} TDS FACEBOOK      {red}                 │{luc} ONLINE {red} │{lam} [1.3] {red}  │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 3.1 {red} │{lam} TDS FACEBOOK (VIP FIVEX)    {red}             │{luc} ONLINE {red} │{lam} [5.0] {red}  │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 4 {red} │{lam} TDS INSTAGRAM          {red}            │{luc} ONLINE {red} │ {lam} [1.9] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 5 {red} │{trang} TTC PRO5           {red}               │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 6 {red} │{trang} TTC INSTAGRAM           {red}            │{luc} ONLINE {red} │ {lam} [1.7] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 7 {red} │{hong} GỘP  GOLIKE  VIP           {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 7.1 {red} │{hong}  GOLIKE  TIKTOK       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│ {vang} 8 {red} │{vang}  NUÔI FACEBOOK V1      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│{vang} 8.1  {red} │{luc}  NUÔI FACEBOOK V2       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│{vang} 9  {red} │{luc}  BUFF LIKE FB       {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
-print(f"{hong}├─────┼────────────────────────────────────┼─────────┼─────────┤")
-print(f"{hong}│{vang} 10  {red} │{tim}  BUFF VIEW-TYM TIKTOK      {red}            │{luc} ONLINE {red} │ {lam} [1.0] {red} │")
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║  TOOL Trao Đổi Sub  ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('[⟨⟩]➩ Nhập Số [1] TDS TIKTOK MAX SPEED [VIP] \n',Colors.white,interval=0.0001)
+Write.Print('[⟨⟩]➩ Nhập Số [2] TDS BẰNG PAGE PRO5 [TẠM] \n',Colors.white,interval=0.0001)
+Write.Print('[⟨⟩]➩ Nhập Số [3] TDS FACEBOOK FULL JOD [VIP] \n',Colors.white,interval=0.0001)
+Write.Print('[⟨⟩]➩ Nhập Số [4] TDS INSTAGRAM MAX SPEED  [MỚI] \n',Colors.white,interval=0.0001)
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║  TOOL TƯƠNG TÁC CHÉO ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [5]  TTC PRO5 [ỔN] \n')
+print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [6] TTC INSTAGRAM MAX SPEED  [MỚI] \n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║TOOL FACEBOOK ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ {lam}Nhập Số [0.1] TOOL BUFF VIEW FB BẰNG PRO5 \033[1;31m[BẢO TRÌ]\n')
+print(f'{hong}[⟨⟩]➩ {lam}Nhập Số [0.2] TOOL SHARE ẢO FB \033[1;31m[BẢO TRÌ ]\n')
+print(f'{hong}[⟨⟩]➩ {lam}Nhập Số [0.3] TOOL NUÔI FB V1 [NGON]\n')
+print(f'{hong}[⟨⟩]➩ {lam}Nhập Số [0.4] TOOL NUÔI FB V2 [NGON]\n')
+print(f'{hong}[⟨⟩]➩ {lam}Nhập Số [0.5] TOOL LIKE BÀI VIẾT DẠO [NGON]\n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL GOLIkE  ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;95mNhập Số [7] TOOL GỘP GOLKIE TIKTOK [VIP] \n')
+print(f'[⟨⟩]➩ \033[1;95mNhập Số [7.1] TOOL GOLKIE TIKTOK [VIP] \n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL  TIKTOK ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [10] TOOL BUFF TIKTOK[NGON]\n')
+print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [11] TOOL BUFF FOLLOW  TIKTOK[NGON]\n')
 import requests
 
 
-chon = str(input('\033[1;31m[\033[1;32m⟨⟩\033[1;31m]\033[1;33m➩ \033[1;34mNhập Số \033[1;37m: \033[1;33m'))
+chon = str(input('\033[1;31m[\033[1;3⟨⟩\033[1;31m]\033[1;33m➩ \033[1;34mNhập Số \033[1;37m: \033[1;33m'))
 
 if chon == '1':
     exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/tdstiktok.py').text)
@@ -225,9 +233,9 @@ elif chon == '4':
     exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/tdsig.py').text)
 elif chon == '5':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/ttcpro5.py').text)
-elif chon == '8':
+elif chon == '0.3':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoifb.py').text)
-elif chon == '8.1':
+elif chon == '0.4':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoivip.py').text)
 #elif chon == '8.2':
 #	exec(requests.get(' https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/addbb.py').text)
@@ -239,7 +247,7 @@ elif chon == '6':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/cmt.py').text)
 #elif chon == '1000':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/dec_hdttool.py').text)
-elif chon == '9':
+elif chon == '0.5':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/likefb.py').text)
 #elif chon == '8.4':
 #	exec(requests.get('').text)
@@ -251,8 +259,8 @@ elif chon == '7':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gopgolike.py').text)
 #elif chon == '12':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/memtele.py').text)
-#elif chon =='11':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/rpfb.py').text)
+elif chon =='11':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/fltik.py').text)
 elif chon == '3.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/obf-6892498050.py').text)
 #elif chon == '13':
