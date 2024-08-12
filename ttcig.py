@@ -1,4 +1,4 @@
-#Tool Được Decode/Crack By HuyKaiser Và Dc Lưu Bởi HuyKaiser - HwiDev
+
 #Time: 17/05/2024 - 09:58:19.305914
 import requests,json
 import uuid
@@ -15,7 +15,13 @@ now=datetime.now()
 os.system("cls" if os.name == "nt" else "clear")
 sleep(0)
 banner="""
-Tool TTC Instagram Vipig
+  \033[1;31m  ██████╗ ███████╗███████╗    ████████╗ ██████╗  ██████╗ ██╗     
+  \033[1;36m ██╔═══██╗██╔════╝██╔════╝    ╚══██╔══╝██╔═══██╗██╔═══██╗██║     
+  \033[1;32m ██║   ██║█████╗  █████╗         ██║   ██║   ██║██║   ██║██║     
+  \033[1;34m ██║   ██║██╔══╝  ██╔══╝         ██║   ██║   ██║██║   ██║██║     
+  \033[1;35m ╚██████╔╝██║     ██║            ██║   ╚██████╔╝╚██████╔╝███████╗
+  \033[1;31m ╚═════╝ ╚═╝     ╚═╝            ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
+  \033[1;35mTOOL TTC INSTAGRAM 
 """
 for X in banner:
   sys.stdout.write(X)
