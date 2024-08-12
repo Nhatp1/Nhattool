@@ -115,7 +115,7 @@ def main():
 
     ngay = int(strftime('%d'))
     key = "OFFTool-" + str(ngay * 2593885817 + 4610273)
-    keyvip = "nhattool28"
+    key = "nhattool28"
 
     saved_key = load_key_from_file()
 
