@@ -148,7 +148,7 @@ def main():
    \033[1;32m Nhập Key để Vào Tool : ''')
 
 
-        if nhap_key == key or keyvip:
+        if nhap_key == key:
             print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
 
             save_key_to_file(nhap_key)
