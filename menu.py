@@ -220,6 +220,10 @@ Write.Print('║ TOOL  TIKTOK ║ \n',Colors.yellow,interval=0.0001,end='\r')
 Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
 print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [10] TOOL BUFF TIKTOK[NGON]\n')
 print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [11] TOOL BUFF FOLLOW  TIKTOK[NGON]\n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL  SPAM SMS  ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [12] TOOL SPAM SMS V1[NGON]\n')
 import requests
 
 
@@ -259,8 +263,8 @@ elif chon == '7.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gotik.py').text)
 elif chon == '7':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/golikev3.py').text)
-#elif chon == '12':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/memtele.py').text)
+elif chon == '12':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nk.py').text)
 elif chon =='11':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/fltik.py').text)
 elif chon == '3.1':
