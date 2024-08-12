@@ -154,7 +154,7 @@ def main():
             save_key_to_file(nhap_key)
         else:
             print('\033[1;31m Key Sai Vui Lòng Vượt Link Để lấy')
-            
+            exit()
 
 
 if __name__ == "__main__":
