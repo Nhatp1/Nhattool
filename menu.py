@@ -46,8 +46,8 @@ thanh_dep=trang+'~'+do+'['+xanh_la+'✓'+do+'] '+trang+'➩  '+xanhnhat
 #     return "127.0.0.1"
 #url = "http://kiemtraip.com/raw.php"
 #ip = get_ip_from_url
-import os
-import requests
+#import os
+#import requests
 from time import strftime
 now = datetime.datetime.now()
 thu = now.strftime('%A')
