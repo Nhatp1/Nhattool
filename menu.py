@@ -258,7 +258,7 @@ elif chon == '10':
 elif chon == '7.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gotik.py').text)
 elif chon == '7':
-	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/gopgolike.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/golikev3.py').text)
 #elif chon == '12':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/memtele.py').text)
 elif chon =='11':
