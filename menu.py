@@ -39,15 +39,15 @@ clear_screen()
 # Lmao
 thanh_xau=trang+'~'+do+'['+vang+'⟨⟩'+do+'] '+trang+'➩  '+xanhnhat
 thanh_dep=trang+'~'+do+'['+xanh_la+'✓'+do+'] '+trang+'➩  '+xanhnhat
-#def get_ip_from_url(url):
+def get_ip_from_url(url):
 #     response = requests.get(url)
- #    ip_address = socket.gethostbyname(response.text.strip())
+#     ip_address = socket.gethostbyname(response.text.strip())
 #     return ip_address
-#     return "127.0.0.1"
-#url = "http://kiemtraip.com/raw.php"
-#ip = get_ip_from_url
-#import os
-#import requests
+     return "127.0.0.1"
+url = "http://kiemtraip.com/raw.php"
+ip = get_ip_from_url
+import os
+import requests
 from time import strftime
 now = datetime.datetime.now()
 thu = now.strftime('%A')
@@ -155,6 +155,11 @@ def main():
         else:
             print('\033[1;31m Key Sai Vui Lòng Vượt Link Để lấy')
             quit()
+#            def clear_screen():
+#    os.system('cls' if os.name == 'nt' else 'clear')
+
+# Gọi hàm để xóa màn hình
+#clear_screen()
 
 
 if __name__ == "__main__":
