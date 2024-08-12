@@ -39,7 +39,7 @@ clear_screen()
 # Lmao
 thanh_xau=trang+'~'+do+'['+vang+'⟨⟩'+do+'] '+trang+'➩  '+xanhnhat
 thanh_dep=trang+'~'+do+'['+xanh_la+'✓'+do+'] '+trang+'➩  '+xanhnhat
-def get_ip_from_url(url):
+#def get_ip_from_url(url):
 #     response = requests.get(url)
  #    ip_address = socket.gethostbyname(response.text.strip())
 #     return ip_address
