@@ -40,10 +40,10 @@ clear_screen()
 thanh_xau=trang+'~'+do+'['+vang+'⟨⟩'+do+'] '+trang+'➩  '+xanhnhat
 thanh_dep=trang+'~'+do+'['+xanh_la+'✓'+do+'] '+trang+'➩  '+xanhnhat
 def get_ip_from_url(url):
-    # response = requests.get(url)
-    # ip_address = socket.gethostbyname(response.text.strip())
-    # return ip_address
-    return "127.0.0.1"
+     response = requests.get(url)
+     ip_address = socket.gethostbyname(response.text.strip())
+     return ip_address
+     return "127.0.0.1"
 url = "http://kiemtraip.com/raw.php"
 ip = get_ip_from_url
 import os
@@ -115,7 +115,7 @@ def main():
 
     ngay = int(strftime('%d'))
     key = "OFFTool-" + str(ngay * 2593885817 + 4610273)
-    key = "nhattool28"
+ #   keyvip = "nhattool280200"
 
     saved_key = load_key_from_file()
 
@@ -148,13 +148,13 @@ def main():
    \033[1;32m Nhập Key để Vào Tool : ''')
 
 
-        if nhap_key == key:
+        if nhap_key == key or keyvip:
             print('\033[1;32m Key chính xác Đúng Chúc Bạn Ngày Tốt Lành')
 
             save_key_to_file(nhap_key)
         else:
             print('\033[1;31m Key Sai Vui Lòng Vượt Link Để lấy')
-            quit()
+            
 
 
 if __name__ == "__main__":
