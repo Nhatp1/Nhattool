@@ -233,6 +233,11 @@ Write.Print('╔═════════════════════�
 Write.Print('║ TOOL  TẤN CÔNG WEB ║ \n',Colors.yellow,interval=0.0001,end='\r')
 Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
 print(f'{hong}[⟨⟩]➩ \033[1;32mNhập Số [13] TOOL DDOS V1 [NGON]\n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL  CHANGE TIKTOK║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [14] TOOL CHANGE ID TIKTOK [NGON]\n')
+print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [15] TOOL AUTO GET SESSION ID [NGON]\n')
 import requests
 
 
@@ -252,8 +257,8 @@ elif chon == '0.3':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoifb.py').text)
 elif chon == '0.4':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoivip.py').text)
-#elif chon == '8.2':
-#	exec(requests.get(' https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/addbb.py').text)
+elif chon == '15':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/get_sessionid.py').text)
 #elif chon == '8.3':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/nuoifb.py').text)
 elif chon == '6':
@@ -280,8 +285,8 @@ elif chon == '3.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/obf-6892498050.py').text)
 elif chon == '13':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/dosv1.py').text)
-#elif chon == '14':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/prx.py').text)
+elif chon == '14':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/rntik.py').text)
 else:
     print("Sai Lựa Chọn")
     exit()
