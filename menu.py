@@ -198,7 +198,8 @@ hong = "\033[1;95m"
 Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
 Write.Print('║  TOOL Trao Đổi Sub  ║ \n',Colors.yellow,interval=0.0001,end='\r')
 Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
-Write.Print('[⟨⟩]➩ Nhập Số [1] TDS TIKTOK MAX SPEED [VIP] \n',Colors.white,interval=0.0001)
+Write.Print('[⟨⟩]➩ Nhập Số [1] TDS TIKTOK MAX SPEED [NGON] \n',Colors.white,interval=0.0001)
+Write.Print('[⟨⟩]➩ Nhập Số [1.1] TDS TIKTOK AUTO [VIP] \n',Colors.white,interval=0.0001)
 Write.Print('[⟨⟩]➩ Nhập Số [2] TDS BẰNG PAGE PRO5 [TẠM] \n',Colors.white,interval=0.0001)
 Write.Print('[⟨⟩]➩ Nhập Số [3] TDS FACEBOOK FULL JOD [VIP] \n',Colors.white,interval=0.0001)
 Write.Print('[⟨⟩]➩ Nhập Số [4] TDS INSTAGRAM MAX SPEED  [MỚI] \n',Colors.white,interval=0.0001)
@@ -259,8 +260,8 @@ elif chon == '0.4':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/nuoivip.py').text)
 elif chon == '15':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/get_sessionid.py').text)
-#elif chon == '8.3':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/nuoifb.py').text)
+elif chon == '1.1':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/traodoisubtiktok.py').text)
 elif chon == '6':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/ttcig.py').text)
 #elif chon == '8.5':
