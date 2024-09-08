@@ -239,6 +239,10 @@ Write.Print('║ TOOL  CHANGE TIKTOK║ \n',Colors.yellow,interval=0.0001,end='\
 Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
 print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [14] TOOL CHANGE ID TIKTOK [NGON]\n')
 print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [15] TOOL AUTO GET SESSION ID [NGON]\n')
+Write.Print('╔═════════════════════╗ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('║ TOOL  BÍ ẨN ║ \n',Colors.yellow,interval=0.0001,end='\r')
+Write.Print('╚═════════════════════╝ \n',Colors.yellow,interval=0.0001,end='\r')
+print(f'{hong}[⟨⟩]➩ \033[1;35mNhập Số [16] TOOL BÍ ẨN  [NGON]\n')
 import requests
 
 
@@ -264,8 +268,8 @@ elif chon == '1.1':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/traodoisubtiktok.py').text)
 elif chon == '6':
 	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/ttcig.py').text)
-#elif chon == '8.5':
-#	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/cmt.py').text)
+elif chon == '16':
+	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhattool/main/botchup.py').text)
 #elif chon == '1000':
 #	exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nhatp1/main/dec_hdttool.py').text)
 elif chon == '0.5':
