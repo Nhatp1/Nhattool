@@ -87,7 +87,7 @@ def handle(msg):
 def main():
     bot = telepot.Bot(TOKEN_HAIBE)
     MessageLoop(bot, handle).run_as_thread()
-    print('CRE BY HAIBE')
+    print('CRE BY OFFTOOL')
 
     import time
     while True:
